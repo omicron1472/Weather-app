@@ -13,13 +13,12 @@ st.write('Enter the City Name and Click on the button to get the Weather Data')
 
 city = st.text_input('Enter the city name')
 # if(len(city) == 0):
-#               st.warning('Enter the Valid City Name')
+#  st.warning('Enter the Valid City Name')
 
-Button = st.button('Fetch Weather Data')
 
 API_URL = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric'
 
-if(Button):
+if(st.button('Fetch Weather Data')):
               response = requests.get(API_URL)
 
               if(response.status_code == 200):
