@@ -49,7 +49,7 @@ The application allows users to:
 
 ## 🖥️ UI Preview
 
-![Weather App UI]([path-to-your-screenshot.png](https://github.com/user-attachments/assets/8e36e0ec-1d9e-43a4-890f-755bdd92a0cd))
+https://github.com/user-attachments/assets/8e36e0ec-1d9e-43a4-890f-755bdd92a0cd
 
 The application features a clean, weather-themed interface:
 
